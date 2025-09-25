@@ -5,7 +5,7 @@
     "id": "@id",
     "schema": "https://schema.org/",
     "TANCredentialsCertificate": {
-      "@id": "https://suraj-tekdi.github.io/dsn-dpi-backend-service/schemas/certificate.json#TANCredentialCertificate",
+      "@id": "https://gitvivekhub.github.io/TAN-RC-VC/Context-TAN-VC.json#TANCredentialsCertificate",
       "@context": {
         "@version": 1.1,
         "id": "@id",
