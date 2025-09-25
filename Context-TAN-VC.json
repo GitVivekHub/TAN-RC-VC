@@ -4,7 +4,7 @@
     "@protected": true,
     "id": "@id",
     "schema": "https://schema.org/",
-    "TANCredentialCertificate": {
+    "TANCredentialsCertificate": {
       "@id": "https://suraj-tekdi.github.io/dsn-dpi-backend-service/schemas/certificate.json#TANCredentialCertificate",
       "@context": {
         "@version": 1.1,
@@ -35,4 +35,3 @@
     }
   }
 }
-
