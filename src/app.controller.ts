@@ -20,6 +20,7 @@ export class AppController {
 
   @Post('issue-credential')
   async issueCredential(@Body() body: any) {
+    console.log('hitting api issue-credentials------------------>>>');
     return this.appService.issueCredential(body);
   }
 
