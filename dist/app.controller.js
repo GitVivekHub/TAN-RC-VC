@@ -24,6 +24,7 @@ let AppController = class AppController {
         this.appService = appService;
     }
     async issueCredential(body) {
+        console.log('hitting api issue-credentials------------------>>>');
         return this.appService.issueCredential(body);
     }
     async getCredentialPdf(id, res) {

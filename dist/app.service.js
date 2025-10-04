@@ -25,7 +25,7 @@ let AppService = class AppService {
             credential: {
                 '@context': [
                     'https://www.w3.org/2018/credentials/v1',
-                    'https://gitvivekhub.github.io/TAN-RC-VC/Context-TAN-VC.json',
+                    'https://tekdi.github.io/TAN-RC-VC/Context-TAN-VC.json',
                 ],
                 type: ['VerifiableCredential'],
                 issuer: this.issuer_id,
@@ -74,6 +74,7 @@ let AppService = class AppService {
             return response.data;
         }
         catch (error) {
+            console.log('error--->>', error);
             return;
         }
     }
